@@ -10,7 +10,7 @@ public class optionalQn {
 
         Optional<String> name = getName();
 
-        System.out.println(name.orElse("Guestsanjadryjxffyy"));
+        System.out.println(name.orElse("Guest"));
     }
 
     public Optional<String> getName() {
